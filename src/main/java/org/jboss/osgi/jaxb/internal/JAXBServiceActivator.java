@@ -23,14 +23,12 @@ package org.jboss.osgi.jaxb.internal;
 
 //$Id$
 
-import org.jboss.osgi.common.log.LogServiceTracker;
 import org.jboss.osgi.jaxb.JAXBService;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceFactory;
 import org.osgi.framework.ServiceRegistration;
-import org.osgi.service.log.LogService;
 
 /**
  * A BundleActivator for JAXB related services
@@ -40,12 +38,8 @@ import org.osgi.service.log.LogService;
  */
 public class JAXBServiceActivator implements BundleActivator
 {
-   private LogService log;
-
    public void start(BundleContext context)
    {
-      log = new LogServiceTracker(context);
-      
       ServiceFactory factory = new ServiceFactory()
       {
          public Object getService(Bundle bundle, ServiceRegistration registration)
@@ -58,7 +52,6 @@ public class JAXBServiceActivator implements BundleActivator
          }
       };
       context.registerService(JAXBService.class.getName(), factory, null);
-      log.log(LogService.LOG_INFO, "JAXBService registered");
    }
 
    public void stop(BundleContext context)

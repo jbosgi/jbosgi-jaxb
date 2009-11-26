@@ -24,12 +24,10 @@ package org.jboss.osgi.jaxb;
 //$Id$
 
 import org.jboss.osgi.spi.capability.Capability;
-import org.jboss.osgi.spi.testing.OSGiRuntime;
 import org.jboss.osgi.xml.XMLParserCapability;
 
 /**
- * Adds the JAXB capability to the {@link OSGiRuntime}
- * under test. 
+ * Adds the JAXB capability. 
  * 
  * It is ignored if the {@link JAXBService} is already registered.
  * 
