@@ -45,6 +45,7 @@ public class JAXBCapability extends Capability
       super(JAXBService.class.getName());
       
       addDependency(new XMLParserCapability());
+      
       addBundle("bundles/jboss-osgi-jaxb.jar");
    }
 }
