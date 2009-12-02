@@ -81,7 +81,6 @@
           <instructions>
             <Bundle-SymbolicName>${artifactId}</Bundle-SymbolicName>
             <Bundle-Activator>org.jboss.osgi.jaxb.internal.JAXBServiceActivator</Bundle-Activator>
-            <Bundle-ActivationPolicy>lazy</Bundle-ActivationPolicy>
             <Private-Package>
               org.jboss.osgi.jaxb.internal
             </Private-Package>
