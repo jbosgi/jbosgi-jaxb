@@ -21,7 +21,7 @@
   <artifactId>jboss-osgi-jaxb</artifactId>
   <packaging>bundle</packaging>
 
-  <version>2.1.10-SNAPSHOT</version>
+  <version>2.1.10.SP4-SNAPSHOT</version>
 
   <!-- Parent -->
   <parent>
