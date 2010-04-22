@@ -27,12 +27,12 @@
   <parent>
     <groupId>org.jboss.osgi</groupId>
     <artifactId>jboss-osgi-parent</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
   </parent>
 
   <!-- Properties -->
   <properties>
-    <version.jboss.osgi.apache.xerces>2.9.1.SP4</version.jboss.osgi.apache.xerces>
+    <version.jboss.osgi.apache.xerces>2.9.1.SP5-SNAPSHOT</version.jboss.osgi.apache.xerces>
     <version.xml.bind>2.1.10</version.xml.bind>
     <version.osgi>4.2.0</version.osgi>
   </properties>
