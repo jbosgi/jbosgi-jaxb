@@ -27,13 +27,13 @@
   <parent>
     <groupId>org.jboss.osgi</groupId>
     <artifactId>jboss-osgi-parent</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
   </parent>
 
   <!-- SCM -->
   <scm>
-    <connection>scm:git://github.com/jbosgi/jbosgi-jaxb.git</connection>
-    <developerConnection>scm:git@github.com:jbosgi/jbosgi-jaxb.git</developerConnection>
+    <connection>scm:git:git://github.com/jbosgi/jbosgi-jaxb.git</connection>
+    <developerConnection>scm:git:git@github.com:jbosgi/jbosgi-jaxb.git</developerConnection>
     <url>http://github.com/jbosgi/jbosgi-jaxb</url>
   </scm>
 
@@ -44,7 +44,7 @@
   
   <!-- Properties -->
   <properties>
-    <version.jboss.osgi.xerces>2.9.1.SP5-SNAPSHOT</version.jboss.osgi.xerces>
+    <version.jboss.osgi.xerces>2.9.1.SP5</version.jboss.osgi.xerces>
     <version.xml.bind>2.1.10</version.xml.bind>
     <version.osgi>4.2.0</version.osgi>
   </properties>
